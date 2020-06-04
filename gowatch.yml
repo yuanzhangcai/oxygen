@@ -1,0 +1,12 @@
+# 添加运行环境参数
+cmd_args:
+    - --env=dev
+
+build_args:
+    - -race
+
+excluded_paths:
+    - html
+    - logs
+    - docs
+    - .git
